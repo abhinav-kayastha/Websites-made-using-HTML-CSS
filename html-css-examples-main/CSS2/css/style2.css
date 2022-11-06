@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto-Regular.ttf")
+}
+
+html {
+    font-family: Lato, sans-serif;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+header {
+    background-color: chartreuse;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: chocolate;
+}
+
+li a:hover::after {
+    content: " #";
+}
+
+main {
+    background-color: darkseagreen;
+}
+
+footer {
+    background-color: gray;
+}
