@@ -1,36 +1,142 @@
 .container {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
 header {
     background-color: cadetblue;
+    padding: 1rem;
+}
+
+html {
+    font-family: Verdana;
+}
+
+body {
+    margin: 0;
 }
 
 nav {
     background-color: burlywood;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: gold;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    width: calc(100% / 3);
+}
+
+li a {
+    background-color: darkblue;
+    color: floralwhite;
+    width: 100%;
+    height: 3rem;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 139, 0.83);
+}
+
 main {
     background-color: #9c9cac;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 section {
     background-color: gold;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section h2 {
+    width: 100%;
 }
 
 article {
     background-color: indianred;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+figure {
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+img {
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    padding: 1rem;
 }
 
 aside {
     background-color: gainsboro;
+    width: 100%;
 }
 
 footer {
     background-color: teal;
+    padding: 1rem;
+    text-align: center;
 }
 
 form {
     background-color: floralwhite;
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+    .container {
+        width: 80%;
+    }
+
+    section {
+        width: 80%;
+    }
+
+    article {
+        width: 50%;
+    }
+
+    li {
+        width: 10rem;
+    }
+
+    aside {
+        width: 20%;
+    }
+
+    form {
+        width: 40%;
+    }
 }
