@@ -90,8 +90,6 @@ nav ul li a {
   margin-top: 10px;
   display: flex;
   flex-direction: row;
-  background-color: gray;
-
 }
 
 .product_text p {
@@ -105,9 +103,10 @@ nav ul li a {
 
 .product_cards .card {
   max-width: 300px;
-  margin: auto;
   text-align: left;
   font-family: arial, sans-serif;
+  margin: auto;
+  background-color: black;
 }
 
 .product_cards img {
