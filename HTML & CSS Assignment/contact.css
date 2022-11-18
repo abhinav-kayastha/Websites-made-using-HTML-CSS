@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
-*{
+
+* {
     border: 0;
     padding: 0;
     box-sizing: border-box;
@@ -70,7 +71,7 @@ nav ul li a {
     padding-inline: 1rem;
 }
 
-.company_name{
+.company_name {
     text-align: center;
     font-size: 60px;
     color: darkslategrey;
@@ -79,4 +80,25 @@ nav ul li a {
 
 #contact_text {
     font-style: italic;
+    margin-right: 10px;
+}
+
+.contact_info {
+    /*padding-left: 2rem;*/
+}
+
+.contact_img {
+    width: 60%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact_info_img {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    width: 80%;
 }
