@@ -41,6 +41,7 @@ nav {
 .just_logo {
     width: 100px;
     height: 100px;
+    border-radius: 50px;
 }
 
 nav .company_logo p {
@@ -49,7 +50,6 @@ nav .company_logo p {
     padding-left: 20px;
     padding-top: 20px;
     font-size: 30px;
-    color: lawngreen;
 }
 
 nav ul {
